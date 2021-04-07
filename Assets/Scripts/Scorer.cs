@@ -7,8 +7,12 @@ public class Scorer : MonoBehaviour
     [SerializeField] int hits = 0;
     void OnCollisionEnter(Collision other) 
     {
-        hits++;
-        Debug.Log("You have bumped into something this many times: " + hits);
+        if (other.gameObject.tag != "CollidableObject" && other.gameObject.tag != "Ground")
+        {
+            hits++;
+            Debug.Log("You have bumped into something this many times: " + hits);
+        }
+
     }
 
 }
