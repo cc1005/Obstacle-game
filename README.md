@@ -1,0 +1,3 @@
+Obstacle game.
+
+And obstacle game based off the Unity 3D game dev course available from gamedev.tv. Currently in a prototype state to be returned to after the course has been completed. Primary area for development is creating a swarm mechanic, where the objects contacted by the player are then unanchored from their position and controlled alongside the player, allowing for a mechanic where the player essentially accumulates material as they run through the level. 
